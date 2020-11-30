@@ -1,0 +1,17 @@
+
+mongo  进入
+
+      show dbs       //显示所有数据库
+
+      db             //查看当前数据库
+
+      use 数据库名称  //切换到指定数据库，没有就新建
+
+      show collections //显示当前数据库的所有集合
+
+      // 插入数据
+      db.students.insertOne(["name": "sofia"])
+      db.students.insert({"name":"sofia"})
+
+      // 查看数据
+      db.students.find()
